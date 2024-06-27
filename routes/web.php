@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//DOPO LA CREAZIOEN DELLA PAGINA HOME NELLA CARTELLA VIEWS INDICO COSA SCRIVERCI NELL'URL PER APRIRE LA PAGINA 
+Route::get('/stellaguida', function () {
+    return view('home');
+});

@@ -1,3 +1,5 @@
+<!-- CREAZIONE DI UNA PAGINA CHE POI SEGNALO COME SI POSSA APRIRE PARTENDO DALLA PAGINA PRINCIPALE CAMBIANO L'URL -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +13,7 @@
 <body class="bg-dark text-white">
     <div class="container">
         <h1 class="text-center">Hello Laravel World</h1>
+        <h2 class="tyex-center text-primary">Benvenuto gentile ospite in quello che pare un mondo confusionario. Lascia che ti aiuti ad orientarti!</h2>
     </div>
 </body>
 
